@@ -299,7 +299,7 @@ class LGDevice(ClimateEntity):
 
         mode = wideq.ACMode[modes_inv[hvac_mode]]
         LOGGER.info("Setting mode to %s...", mode)
-        self._ac.set_power_save_mode(1)
+        #self._ac.set_power_save_mode(1)
         self._ac.set_mode(mode)
         LOGGER.info("Mode set.")
 
