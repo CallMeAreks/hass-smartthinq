@@ -288,9 +288,10 @@ class ACDevice(Device):
         )
         self._set_control("airState.wMode.jet", jet_opt_value)
 
-    def set_power_save_mode(self, mode):
+    def set_power_save_mode(self, m):
         """Sets power saving mode on (1) or off (0)"""
-        self._set_control("airState.powerSave.basic", mode)
+
+        self._set_control("airState.powerSave.basic", m)
 
     def set_fan_speed(self, speed):
         """Set the fan speed to a value from the `ACFanSpeed` enum."""
