@@ -6,6 +6,6 @@
     "documentation": "https://github.com/CallMeAreks/hass-smartthinq",
     "dependencies": [],
     "codeowners": ["@marciogranzotto","@CallMeAreks"],
-    "requirements": ["git+https://github.com/CallMeAreks/wideq.git", "pycountry>=20.7.3"],
+    "requirements": ["git+https://github.com/marciogranzotto/wideq.git@thinq2#wideq==2.0.1", "pycountry>=20.7.3"],
     "issue_tracker": "https://github.com/CallMeAreks/hass-smartthinq/issues"
 }
